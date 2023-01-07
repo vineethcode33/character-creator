@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
@@ -18,13 +19,24 @@
   letter-spacing: -0.5px;
 }
 
+.header {
+  max-width: 65%;
+}
+
 .description {
   font-size: 1.25rem;
   margin: 0;
 }
 
 .characterWrapper {
+  position: fixed;
+  top: 10%;
+  left: 60%;
+  bottom: 5%;
+  min-height: 500px;
 }
 
 .controlColumn {
+  max-width: 50%;
+  white-space: nowrap;
 }
